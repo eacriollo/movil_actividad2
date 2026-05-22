@@ -73,7 +73,7 @@ const confirmDeleteMovie = (id: number) => {
             onDelete={() => confirmDeleteMovie(item.id!)}
 
             onEdit={() =>
-              router.push(/edit/${item.id})
+              router.push(`../edit/${item.id}`)
             }
           />
 
